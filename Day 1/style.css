@@ -1,0 +1,31 @@
+#box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    gap:50px;
+}
+.card1 img{
+    
+    border:1px solid white ;
+    border-radius: 30px;
+    border-width: 10px;
+}
+.card2 img{
+    height:250px;
+    width:200px;
+    border:1px solid white;
+    border-radius: 30px;
+    border-width: 10px;
+}
+.card3 img{
+    border:1px solid white;
+    border-radius: 30px;
+    border-width: 10px;
+}
+.card1 text{
+    font: size 1.4rem;
+    text-align: center;
+}
+
+
