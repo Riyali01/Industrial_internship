@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Roboto,sans-serif;
+}
+#root{
+    max-width: 700px;
+    margin:40px auto;
+    background-color: #f0f0f0;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+    padding:40px 0;
+}
+
+
+.post{
+    width:250px;
+    background-color: white;
+    padding:20px;
+}
+.add-post{
+    justify-content: center;
+    display:flex;
+    
+    flex-wrap: wrap;
+    padding:20px 0;
+    gap:10px;
+
+}
+.add-post input, .add-post button{
+    padding:10px;
+    
+}
+
+
